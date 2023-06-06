@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login_page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            background-image: url(log1.avif);
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            overflow-x: hidden;
+    font-family: sans-serif;
+        }
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        .head{
+            display: flex;
+            padding: 15px 30px;
+        }
+        .para1{
+            padding-right: 20px;
+            padding-left: 30px;
+            color: #fff;
+            /* font-weight: 900; */
+            font-weight: 900;
+            font-size: 36px;
+        }
+        .para2{
+            color: #fff;
+            padding-top: 20px;
+            font-weight: 700;
+            font-size: 15px;
+        }
+        .left{
+            position: absolute;
+            top: 160px;
+            left: 217px;
+        }
+        .para3{
+            font-weight: 700;
+            font-size: 45px;
+            color: #fff;
+        }
+        .para4{
+            color: #fff;
+            font-weight: 600;
+            padding-top: 13px;
+            font-size: 15px;
+        }
+        .right{
+            position: absolute;
+            top: 100px;
+            left: 700px;
+            background-color: #fff;
+            height: 470px;
+            width: 420px;
+        }
+        .top{
+            padding: 9px 27px;
+            color: #fff;
+            font-size: 13px;
+            background-image: linear-gradient(270deg,#d11450,#ee2a24);
+            font-weight: 700;
+        }
+        .head1{
+            color: rgb(68, 68, 68);
+            padding: 23px 30px ;
+            
+        }
+        .head2{
+            padding:5px 30px;
+            color: rgb(68, 68, 68);
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .click a{
+            text-decoration: none;
+            color: #ee2a24;
+        }
+        .no{
+            margin: 8px 30px;
+            height: 35px;
+            width: 350px;
+            padding: 20px 20px;
+            border:1px solid rgb(139, 139, 139);
+        }
+        .no2{
+            border: none;
+            color: #fff;
+     padding: 12px 60px;
+     border-radius: 5px;
+     font-size: 17px;
+     font-weight: 700;
+     margin: 8px 30px;
+     background-color: rgb(211, 204, 204);
+        }
+        hr{
+            margin: 0px;
+           
+        }
+        .sign{
+            font-weight: 700;
+    position: absolute;
+    top: 391px;
+    left: 23px;
+    font-size: 13px;
+    color: rgb(46, 45, 45);
+    background-color: #fff;
+    padding: 0px 5px;
+        }
+       .agent{
+        padding: 25px;
+        font-weight: 600;
+        font-size: 15px;
+        color: rgb(48, 48, 48);
+        border-right: 1px solid  rgb(168, 168, 168);
+       }
+       .last{
+        display: flex;
+     
+       }
+       .cor{
+        padding: 25px;
+        font-weight: 600;
+        font-size: 15px;
+        color: rgb(48, 48, 48);
+       }
+       .cor i{
+        color: rgb(199, 197, 197);
+        font-size: 13px;
+       }
+       .agent i{
+        color: rgb(199, 197, 197);
+        font-size: 13px;
+       }
+    </style>
+</head>
+<body>
+  <div class="head">
+<p class="para1">OYO</p>
+<p class="para2">Hotels and homes across 800 cities, 24+ countries</p>
+  </div>
+  <div class="container">
+    <div class="row">
+        <div class="left">
+            <h2 class="para3">There’s <br> a smarter way to <br> OYO around</h2>
+            <p class="para4">Sign up with your phone number and get exclusive <br> access to discounts and savings on OYO stays and <br> with our many travel partners.</p>
+        </div>
+        <div class="right">
+            <div class="top">
+             <p><i class="fa-solid fa-tag"></i>  Sign up & Get
+                ₹500
+                OYO Money</p>
+            </div>
+            <h1 class="head1">Login / Signup</h1>
+            <p class="head2">Please enter your phone number to continue</p>
+<form action="">
+    
+<input type="text"  class="no" placeholder="Enter Your Number..." >
+<button class="no2">Verify Number</button>
+</form>
+<p class="head2">Prefer to Sign in with password instead?<span class="click"><a href="">Click here</a></span></p>
+<br><br><br><br><br><br>
+<hr>
+<div class="sign">Or sign in as</div>
+<div class="last">
+    <div class="agent">
+        Travel Agent  <i class="fa-solid fa-chevron-right"></i>
+    </div>
+    <div class="cor">Corporate <i class="fa-solid fa-chevron-right"></i></div>
+</div>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
